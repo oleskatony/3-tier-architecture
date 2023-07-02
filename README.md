@@ -4,7 +4,11 @@ Welcome to my breakdown of 3-tier-architecture using AWS. In this document, I wi
 
 ⚠️ **WARNING: Please be aware that some services used in this project fall outside of the AWS Free-Tier. If you plan on recreating this project, please be cautious about the services you provision in AWS. Make sure to remove all infrastructure properly upon completion to avoid unnecessary charges to your account.** ⚠️
 
-3-tier-architecture is a common infrastructure pattern used in software development, particularly in web applications. It separates the different components of an application into three distinct layers (or tiers), each responsible for specific functionality. These tiers are:
+This Multi-layered infrastructure patterns are commonly used in software development, particularly in web applications. It separates the different components of an application into three distinct layers (or tiers), each responsible for specific functionality. These tiers are:
+
+![3-tier-arch drawio](https://github.com/oleskatony/3-tier-architecture/assets/128739036/72966b99-d05f-48c0-97ff-685f3c430eb0)
+
+
 
 ## The Web Tier (Presentation Tier)
 
@@ -17,9 +21,6 @@ The application tier contains the business logic or rules that define how the ap
 ## The Database Tier
 
 The database tier is responsible for managing the storage and retrieval of data. It typically includes databases or other data storage systems. The database tier receives requests from the application tier, performs database operations such as reading or writing data, and returns the results back to the application tier.
-
-![3-tier-arch drawio](https://github.com/oleskatony/3-tier-architecture/assets/128739036/72966b99-d05f-48c0-97ff-685f3c430eb0)
-
 # Process Overview
 
 Let's quickly take a look at the steps needed to create a structure like the diagram above:
