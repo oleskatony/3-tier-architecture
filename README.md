@@ -4,7 +4,7 @@ Welcome to my breakdown of 3-tier-architecture using AWS. In this document, I wi
 
 ⚠️ **WARNING: Please be aware that some services used in this project fall outside of the AWS Free-Tier. If you plan on recreating this project, please be cautious about the services you provision in AWS. Make sure to remove all infrastructure properly upon completion to avoid unnecessary charges to your account.** ⚠️
 
-This Multi-layered infrastructure patterns are commonly used in software development, particularly in web applications. It separates the different components of an application into three distinct layers (or tiers), each responsible for specific functionality. These tiers are:
+The 3-tier-architecture approach is commonly used in software development, particularly in web applications. It separates the different components of an application into three distinct layers (or tiers), each responsible for specific functionality. These tiers are:
 
 ![3-tier-arch drawio](https://github.com/oleskatony/3-tier-architecture/assets/128739036/72966b99-d05f-48c0-97ff-685f3c430eb0)
 
