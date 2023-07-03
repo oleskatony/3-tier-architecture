@@ -6,7 +6,7 @@ Welcome to my breakdown of 3-tier architecture using AWS. In this document, I wi
 
 The 3-tier architecture approach is commonly used in software development, particularly in web applications. It separates the different components of an application into three distinct layers (or tiers), each responsible for specific functionality. These tiers are:
 
-![3-tier-arch drawio](https://github.com/oleskatony/3-tier-architecture/assets/128739036/72966b99-d05f-48c0-97ff-685f3c430eb0)
+![3-tier-arch drawio (1)](https://github.com/oleskatony/3-tier-architecture/assets/128739036/d4ccc897-232c-4c5b-a051-18b3e436d31e)
 
 
 
@@ -165,3 +165,4 @@ This highly available and scalable architecture is a proven pattern for infrastr
 Thank you for taking the time to explore this breakdown of the 3-tier architecture in AWS. I appreciate your continued interest and support. I encourage you to visit my website or explore other project breakdowns available on GitHub. Once again, thank you for your engagement, and I look forward to sharing more valuable content with you in the future.
 
 ⚠️ **Reminder: If you were following along and provisioned these resources on your personal AWS account, please be aware that some charges will be incurred if you do not properly remove them. I personally had access to a lab setting, so I had access to features outside of the AWS Free-Tier.** ⚠️
+
