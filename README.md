@@ -1,10 +1,10 @@
 # 3 Tier Architecture using AWS
 
-Welcome to my breakdown of 3-tier-architecture using AWS. In this document, I will provide a detailed account of the process I followed while designing this architectural pattern. Before I dive into this project, I want to thank you for checking out my page. I encourage you to check out some of my other projects like the [Cloud Resume Challenge](https://github.com/oleskatony/cloudresumechallenge) and the [AWS Cloud Architecture Project](https://github.com/oleskatony/vpc-architecture), additionally you check check out my [website](https://antoleska.net/) if you want to see more!
+Welcome to my breakdown of 3-tier architecture using AWS. In this document, I will provide a detailed account of the process I followed while designing this architectural pattern. Before I dive into this project, I want to thank you for checking out my page. I encourage you to check out some of my other projects like the [Cloud Resume Challenge](https://github.com/oleskatony/cloudresumechallenge) and the [AWS Cloud Architecture Project](https://github.com/oleskatony/vpc-architecture), additionally you check check out my [website](https://antoleska.net/) if you want to see more!
 
 ⚠️ **WARNING: Please be aware that some services used in this project fall outside of the AWS Free-Tier. If you plan on recreating this project, please be cautious about the services you provision in AWS. Make sure to remove all infrastructure properly upon completion to avoid unnecessary charges to your account.** ⚠️
 
-The 3-tier-architecture approach is commonly used in software development, particularly in web applications. It separates the different components of an application into three distinct layers (or tiers), each responsible for specific functionality. These tiers are:
+The 3-tier architecture approach is commonly used in software development, particularly in web applications. It separates the different components of an application into three distinct layers (or tiers), each responsible for specific functionality. These tiers are:
 
 ![3-tier-arch drawio](https://github.com/oleskatony/3-tier-architecture/assets/128739036/72966b99-d05f-48c0-97ff-685f3c430eb0)
 
@@ -132,9 +132,9 @@ Configure this new rule to allow "MySQL/Aurora" traffic on port 3306, and for th
 ![](https://i.imgur.com/o3qigSJ.png)
 
 # Step 5: Cleaning up the Route Tables
-Once the web, application, and database tiers are all up and running, then your 3-tier-archetecture is complete! You can now benefit from the scalability, reliability, and security that comes with using this architecture! There are still some additional tweaks and cleanup that I like to do that make the architecture nice and neat.
+Once the web, application, and database tiers are all up and running, then your 3-tier archetecture is complete! You can now benefit from the scalability, reliability, and security that comes with using this architecture! There are still some additional tweaks and cleanup that I like to do that make the architecture nice and neat.
 
-As you recall in step 1, using the "VPC and more" option caused AWS to automatically provision route tables when creating our VPC. This last and final step of configuring our 3-tier-architecture will just focus on cleaning up the route tables to make configurations easier in the future.
+As you recall in step 1, using the "VPC and more" option caused AWS to automatically provision route tables when creating our VPC. This last and final step of configuring our 3-tier architecture will just focus on cleaning up the route tables to make configurations easier in the future.
 
 We currently have 6 route tables in total inside our VPC, the main route table does not show up on the resource map until after creation:
 - 1 main route table (0 subnet associations)
